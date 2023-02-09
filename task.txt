@@ -1,49 +1,30 @@
-axyusak sargel
-cankacac chapi
-classer
-Spreadsheet() // axyusak
-Cell() // yacheyka mejy string lini
-
-Celli mej incapsulacvumea value: string
-Spreadsheet agregacnuma Cell
-
-user achqerov
-let sh = new Spreadsheet(colls, rows)
-
-sh.set(2, 4, 'Noname string');
-sh.set(2, 4, new Cell('Text'));
-
-sh.get(2, 4); // Cell object
-Cell unena guyn (partadir chi)
-Cell() // argumentov u arandz
+Cell properties
 value geter seter
 color geter seter
 toInt() 
 toDouble()
-toDate() // return vorpes date 
-reset(); // zroyacnuma
-static copy();
+toDate()
+reset();
 
-Spreadsheet propertinery
+Spreadsheet properties
 Cell matrix
-select_cell; // click cell
+select_cell;
 construct(row, coll);
 setCell(row, coll, str); kamel
 setCell(row, coll, new Cell('str'));
 getCell(row, coll);
-addRow(Number); // toxi hamar u avelacnuma tox
-removeRow(number); // toxi hamarov jnjuma
-addColl(Number); // avelacnuma syunak
-removeColl(number); // jnjuma syunaky
-
-swapRows(row, coll); // poxuma toxery
-swapColls(row, coll); // poxuma syunaknery
+addRow(Number);
+removeRow(number);
+addColl(Number);
+removeColl(number);
+swapRows(row, coll);
+swapColls(row, coll);
 
 
 ============= TESTING ==============
-test driven development (TDD) motecumna
+test driven development (TDD)
 unit tests
-unenanq hatuk class testavorman hamar u mejy static functioner unenam tester
+class Test. Static methods
 
 Testing steps 
 + Implement the shell version Cell, Spreadsheet (10 - 20 min)
