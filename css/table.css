@@ -1,0 +1,40 @@
+body {
+	background-color: rgb(155, 206, 162);
+}
+
+.table{
+	display: grid;
+	grid-gap: 1px;
+}
+.table__input{
+	outline: none;
+	border: none;
+	background-color: rgb(255, 255, 255);
+}
+
+/* .tool-bar {} */
+.tool-bar input {
+	width: 100px;
+}
+
+/* .row_add_rem {} */
+/* .row_add_rem_input {} */
+/* .row_add_rem_add {} */
+/* .row_add_rem_rem {} */
+
+/* .coll_add_rem {} */
+/* .coll_add_rem_input {} */
+/* .coll_add_rem_add {} */
+/* .coll_add_rem_rem {} */
+
+/* .coll_swap {} */
+/* .coll_swap_input_1 {} */
+/* .coll_swap_input_2 {} */
+/* .coll_swap_swap {} */
+
+/* .row_swap {} */
+/* .row_swap_input_1 {} */
+/* .row_swap_input_2 {} */
+/* .row_swap_swap {} */
+
+/* input.color {} */
